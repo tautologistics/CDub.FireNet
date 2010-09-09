@@ -1,0 +1,875 @@
+[Sandcastle Help File Builder GUI, version 1.6.0.2]
+Build started at 8/26/2008 3:45:10 PM
+
+Finding tools...
+Found Sandcastle in 'C:\Program Files\Sandcastle\'
+Found HTML 1.x help compiler in 'C:\Program Files\HTML Help Workshop\'
+Found HTML 2.x help compiler in 'C:\Program Files\Common Files\Microsoft Shared\Help\'
+Validating documentation assembly information...
+-------------------------------
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0781
+-------------------------------
+Copying documentation assembly dependencies...
+No dependencies to copy
+    Last step completed in 00:00:00.0156
+-------------------------------
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating reflection information...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\GenerateRefInfo.bat]
+MrefBuilder (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+Info: Wrote information on 1 namespaces, 5 types, and 66 members
+    Last step completed in 00:00:05.7188
+-------------------------------
+Removing duplicate topics from reflection information file
+    0 duplicate topics removed
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+-------------------------------
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    0 local and base class EII elements removed
+    40 protected members noted for removal
+    2 protected inherited framework members noted for removal
+    Removing previously noted unwanted APIs and elements
+    Last step completed in 00:00:00.0313
+-------------------------------
+Transforming reflection output...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\TransformManifest.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+    Last step completed in 00:00:07.4063
+-------------------------------
+Modifying help topic filenames in reflection information file
+No changes required
+    Last step completed in 00:00:00.0000
+-------------------------------
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_caution.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_note.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_security.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_kw.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\box.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\box.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\Caution.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\CFW.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collall.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collapse.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse_all.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycode.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycodeHighlight.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\copycodeHighlight.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdown.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dropdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdownHover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dropdownHover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown_orange.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange_up.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown_orange_up.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpup.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpup.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\exp.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\exp.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expall.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\expall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expand_all.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\filter1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\filter1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\footer.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\footer.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\gradient.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\gradient.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greencheck.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\greencheck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greychck.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\greychck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_prev_next.jpg -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_prev_next.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_blank.jpg -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_sql_tutorial_blank.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_logo.GIF -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_sql_tutorial_logo.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\LastChild.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\load.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load_hover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\load_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\note.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pencil.GIF -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pencil.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protoperator.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\puboperator.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\requirements1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\requirements1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\save.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save_hover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\save_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\security.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\seealso1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\seealso1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\static.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\xna.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\xna.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CheckboxMenu.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\CheckboxMenu.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CommonUtilities.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\CommonUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\Dropdown.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\Dropdown.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\EventUtilities.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_feedBack.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_feedBack.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_loc.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_loc.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_manifold.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_manifold.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Presentation.css -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\styles\Presentation.css
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\styles\Whidbey\presentation.css
+    Last step completed in 00:00:03.7656
+
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0156
+-------------------------------
+Creating Sandcastle configuration file...
+    Last step completed in 00:00:00.0625
+-------------------------------
+Merging custom build component configurations
+    No component configurations to merge
+    Last step completed in 00:00:00.0000
+-------------------------------
+Building help topics...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\BuildHelpTopics.bat]
+BuildAssembler (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: CopyFromFileComponent: Instantiating component.
+Info: CopyFromFileComponent: Loading data file 'C:\Program Files\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml'.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
+Info: CopyFromIndexComponent: Indexed 170135 elements in 107 files.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: SyntaxComponent: Instantiating component.
+Info: SyntaxComponent: Loaded 3 syntax generators.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Warn: CopyFromIndexComponent: Entries for the key 'N:System.Data.SqlClient' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Cancel' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.CreateParameter' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteNonQuery' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader(System.Data.CommandBehavior)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteScalar' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteXmlReader' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Prepare' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ResetCommandTimeout' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandText' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandTimeout' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandType' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Connection' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Parameters' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Transaction' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.UpdatedRowSource' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommandBuilder' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor(System.Data.SqlClient.SqlDataAdapter)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(System.Data.SqlClient.SqlCommand)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetDeleteCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetInsertCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetUpdateCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.DataAdapter' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuotePrefix' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuoteSuffix' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlConnection' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlConnection.InfoMessage' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel,System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.ChangeDatabase(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Close' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.CreateCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Open' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.System.ICloneable.Clone' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionString' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionTimeout' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.Database' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.DataSource' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.PacketSize' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ServerVersion' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.State' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.WorkstationId' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataAdapter' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.Data.SqlClient.SqlCommand)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdated' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdating' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.DeleteCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.InsertCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.SelectCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.DeleteCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.InsertCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.SelectCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.UpdateCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.UpdateCommand' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataReader' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Close' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBoolean(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetByte(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChar(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDataTypeName(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDateTime(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDecimal(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDouble(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFieldType(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFloat(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetGuid(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt16(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt32(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt64(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetName(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetOrdinal(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSchemaTable' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBinary(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBoolean(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlByte(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDateTime(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDecimal(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDouble(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlGuid(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt16(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt32(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt64(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlMoney(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlSingle(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlString(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValue(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValues(System.Object[])' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetString(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValue(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValues(System.Object[])' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.IsDBNull(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.NextResult' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Read' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Depth' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.FieldCount' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.IsClosed' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.RecordsAffected' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlError' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlError.ToString' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Class' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.LineNumber' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Message' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Number' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Procedure' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Server' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Source' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.State' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlErrorCollection' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.GetEnumerator' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Count' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Item(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.IsSynchronized' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.SyncRoot' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlException' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Class' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Errors' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.LineNumber' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Number' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Procedure' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Server' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Source' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.State' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventArgs' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlInfoMessageEventArgs.ToString' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Errors' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Message' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Source' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventHandler' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameter' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.System.ICloneable.Clone' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.ToString' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.DbType' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Direction' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.IsNullable' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Offset' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.ParameterName' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Precision' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Scale' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Size' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceColumn' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceVersion' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SqlDbType' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Value' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameterCollection' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Data.SqlClient.SqlParameter)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.AddWithValue(System.String,System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Clear' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.GetEnumerator' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Insert(System.Int32,System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Remove(System.Object)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Count' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.Int32)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventArgs' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatedEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatedEventArgs.Command' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventHandler' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventArgs' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatingEventArgs.Command' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventHandler' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlTransaction' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Commit' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Save(System.String)' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.Connection' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.IsolationLevel' occur in both 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\Winnt\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Info: CopyFromIndexComponent: Searching for files that match 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.XML'.
+Warn: CopyFromIndexComponent: Entries for the key 'T:CDub.FireNet.LogLevel' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.LOG' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.INFO' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.WARN' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.ERROR' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.TRACE' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.LogLevel.DUMP' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:CDub.FireNet.StackFrameData' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameData.file' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameData.line' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameData.function' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameData.args' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:CDub.FireNet.StackFrameDataContainer' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameDataContainer.Message' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameDataContainer.File' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameDataContainer.Line' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.StackFrameDataContainer.Trace' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:CDub.FireNet.Logger' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_PATTERN' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_HEADER_PREFIX' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_SKIP_MACRO' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_HEADER_CONSOLE' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_HEADER_CONSOLE_SECTION' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_HEADER_DUMP' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.FIREPHP_HEADER_DUMP_SECTION' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger.CONTEXT_KEY' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._firePHPRegex' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._context' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._userAgentSupport' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._headersInit' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._headersDumpInit' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Logger._headersConsoleInit' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.GetInstance' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.#ctor' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.InitHeaders' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.InitDumpHeaders' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.InitConsoleHeaders' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.FormatNumber(System.Int32,System.Int64)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.WriteHeader(System.String,System.Int32,System.Int32,System.Int64)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.WriteHeader(System.String,System.Int32)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Log(System.Object)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.Object)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.String,System.Object)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.ReadStackFrames(System.Diagnostics.StackTrace)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Dump(System.String,System.Object)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Trace(System.String)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Logger.Trace(System.Exception)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:CDub.FireNet.Logger.CurrentSecs' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:CDub.FireNet.Logger.CurrentUSecs' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:CDub.FireNet.Logger.Enabled' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:CDub.FireNet.Serializer' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.NULLVALUE' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.CLASSPROPNAME' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.HASHOPEN' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.HASHCLOSE' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.ARRAYOPEN' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer.ARRAYCLOSE' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer._idictType' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer._icollType' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'F:CDub.FireNet.Serializer._ienumType' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.QuoteData(System.String)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.Serialize(System.Object)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.Serialize(System.Object,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleObject(System.Object,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleObjectFields(System.Object,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleObjectProperties(System.Object,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleICollection(System.Collections.ICollection,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleIEnumerable(System.Collections.IEnumerable,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleIDictionary(System.Collections.IDictionary,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleNVCollection(System.Collections.Specialized.NameValueCollection,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:CDub.FireNet.Serializer.HandleArray(System.Array,System.Text.StringBuilder)' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'N:CDub.FireNet' occur in both 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml' and 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\CDub.FireNet.xml'. The last entry will be used.
+Info: CopyFromIndexComponent: Indexed 75533 elements in 67 files.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 2 subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ShowMissingComponent: Instantiating component.
+Info: ShowMissingComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Show Missing Documentation Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: VersionInfoComponent: Instantiating component.
+Info: VersionInfoComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Version Information Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: CodeBlockComponent: Instantiating component.
+Info: CodeBlockComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Code Block Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved.
+    Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+    http://www.codeplex.com/SHFB
+Info: TransformComponent: Instantiating component.
+Info: PostTransformComponent: Instantiating component.
+Info: PostTransformComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Post-Transform Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: SharedContentComponent: Instantiating component.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
+Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_feedback' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_feedbacktext' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'feedback_feedbacktext' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'feedback_ratings' with value in file 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+Info: SharedContentComponent: Loaded 548 shared content items.
+Info: ResolveReferenceLinksComponent2: Instantiating component.
+Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc' for targets files of the form 'reflection.xml'.
+Info: ResolveReferenceLinksComponent2: Loaded 170135 reference targets.
+Info: SaveComponent: Instantiating component.
+Info: BuildAssembler: Building topic N:CDub.FireNet
+Info: BuildAssembler: Building topic T:CDub.FireNet.Logger
+Info: BuildAssembler: Building topic AllMembers.T:CDub.FireNet.Logger
+Info: BuildAssembler: Building topic Methods.T:CDub.FireNet.Logger
+Info: BuildAssembler: Building topic Properties.T:CDub.FireNet.Logger
+Info: BuildAssembler: Building topic Overload:CDub.FireNet.Logger.Log
+Info: BuildAssembler: Building topic Overload:CDub.FireNet.Logger.Trace
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Dump(System.String,System.Object)
+Info: BuildAssembler: Building topic P:CDub.FireNet.Logger.Enabled
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.GetInstance
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.Object)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.String,System.Object)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Log(System.Object)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Trace(System.Exception)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Logger.Trace(System.String)
+Info: BuildAssembler: Building topic T:CDub.FireNet.LogLevel
+Info: BuildAssembler: Building topic T:CDub.FireNet.Serializer
+Info: BuildAssembler: Building topic AllMembers.T:CDub.FireNet.Serializer
+Info: BuildAssembler: Building topic Methods.T:CDub.FireNet.Serializer
+Info: BuildAssembler: Building topic Overload:CDub.FireNet.Serializer.Serialize
+Info: BuildAssembler: Building topic M:CDub.FireNet.Serializer.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:CDub.FireNet.Serializer.#ctor
+Info: BuildAssembler: Building topic M:CDub.FireNet.Serializer.QuoteData(System.String)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Serializer.Serialize(System.Object)
+Info: BuildAssembler: Building topic M:CDub.FireNet.Serializer.Serialize(System.Object,System.Text.StringBuilder)
+Info: BuildAssembler: Building topic T:CDub.FireNet.StackFrameData
+Info: BuildAssembler: Building topic AllMembers.T:CDub.FireNet.StackFrameData
+Info: BuildAssembler: Building topic Fields.T:CDub.FireNet.StackFrameData
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameData.args
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameData.file
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameData.function
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameData.line
+Info: BuildAssembler: Building topic T:CDub.FireNet.StackFrameDataContainer
+Info: BuildAssembler: Building topic AllMembers.T:CDub.FireNet.StackFrameDataContainer
+Info: BuildAssembler: Building topic Fields.T:CDub.FireNet.StackFrameDataContainer
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameDataContainer.File
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameDataContainer.Line
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameDataContainer.Message
+Info: BuildAssembler: Building topic F:CDub.FireNet.StackFrameDataContainer.Trace
+Info: Processed 38 topics
+    Last step completed in 00:03:34.2969
+-------------------------------
+Generating intermediate table of content file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\GenerateIntermediateTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
+
+Clearing any prior web output
+    Last step completed in 00:00:12.7656
+-------------------------------
+Generating HTML Help 1.x table of content file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Generate1xTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\TocToChmContents.xsl'.
+    Last step completed in 00:00:16.6719
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating HTML Help 1.x index file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Generate1xIndex.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToChmIndex.xsl'.
+    Last step completed in 00:00:06.2656
+-------------------------------
+Generating HTML Help 1.x project file...
+    Last step completed in 00:00:01.1250
+-------------------------------
+Compiling HTML Help 1.x file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Build1xHelpFile.bat]
+Microsoft HTML Help Compiler 4.74.8702
+
+
+
+Compiling c:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\doc.chm
+
+
+
+
+
+Compile time: 0 minutes, 8 seconds
+
+40	Topics
+
+345	Local links
+
+193	Internet links
+
+0	Graphics
+
+
+
+
+
+Created c:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\doc.chm, 130,050 bytes
+
+Compression decreased file by 515,713 bytes.
+
+    Last step completed in 00:00:17.8750
+-------------------------------
+Generating Help 2.x table of content file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Generate2xTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\TocToHxSContents.xsl'.
+    Last step completed in 00:00:00.5625
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating HTML Help 2.x project files...
+    Last step completed in 00:00:00.0313
+-------------------------------
+Compiling HTML Help 2.x file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Build2xHelpFile.bat]
+'"C:\Program Files\Common Files\Microsoft Shared\Help\hxcomp"' is not recognized as an internal or external command,
+operable program or batch file.
+The system cannot find the file specified.
+    Last step completed in 00:00:00.2188
+-------------------------------
+Generating website table of content file...
+[C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\GenerateWebsiteTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'TocToWebContents.xsl'.
+    Last step completed in 00:00:00.8125
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00.3750
+-------------------------------
+Copying website files to output folder...
+
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_100.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_100.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_101.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_101.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_102.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_102.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_103.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_103.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_104.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_104.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_105.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_105.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_106.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_106.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_107.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_107.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_108.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_108.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_109.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_109.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_110.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_110.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_111.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_111.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_112.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_112.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_113.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_113.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_114.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_114.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_115.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_115.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_116.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_116.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_117.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_117.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_118.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_118.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_119.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_119.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_97.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_97.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_98.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_98.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_99.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_99.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\fti\FTI_Files.bin -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\fti\FTI_Files.bin
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\0109a64c-5c0f-39b1-f7bf-432e75eb4481.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\0109a64c-5c0f-39b1-f7bf-432e75eb4481.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\0a17bc5c-8c9a-d439-23b8-95732af337ad.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\0a17bc5c-8c9a-d439-23b8-95732af337ad.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\0b8982a5-d554-f8a6-75fd-15929bd5838e.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\0b8982a5-d554-f8a6-75fd-15929bd5838e.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\0d451f37-720b-ac6d-bc91-807b00801c9f.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\0d451f37-720b-ac6d-bc91-807b00801c9f.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\1237ae0f-859b-75c1-4fb6-67c04a84b3f5.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\1237ae0f-859b-75c1-4fb6-67c04a84b3f5.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\28c7dd6e-21ab-a859-910d-d523f3b8d128.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\28c7dd6e-21ab-a859-910d-d523f3b8d128.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\32763d2e-3539-e7d8-8bc7-034c55c581c1.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\32763d2e-3539-e7d8-8bc7-034c55c581c1.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\343d27c7-31fe-1c07-cc08-b02998857cf2.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\343d27c7-31fe-1c07-cc08-b02998857cf2.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\3747066b-37eb-58b7-cc37-985d32025825.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\3747066b-37eb-58b7-cc37-985d32025825.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\3864470b-494c-8b14-7c01-7852ddb8f070.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\3864470b-494c-8b14-7c01-7852ddb8f070.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\4253b51b-07b5-c357-0a3c-9bc6f7bbc630.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\4253b51b-07b5-c357-0a3c-9bc6f7bbc630.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\45fba068-09aa-f15e-c435-cff0afb71c2e.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\45fba068-09aa-f15e-c435-cff0afb71c2e.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\5323c4e4-a7a2-c09a-0f3b-5e5a4a8c52ce.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\5323c4e4-a7a2-c09a-0f3b-5e5a4a8c52ce.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\5858ec09-82ba-09b2-01e1-c0dd5eed15aa.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\5858ec09-82ba-09b2-01e1-c0dd5eed15aa.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\6318dcf8-0039-0aa9-af87-f9bf6e5a1e99.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\6318dcf8-0039-0aa9-af87-f9bf6e5a1e99.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\69fe01fd-716d-be05-868f-deda3dadfe4b.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\69fe01fd-716d-be05-868f-deda3dadfe4b.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\90be6c19-8b67-b5e0-eeba-221c4644f74d.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\90be6c19-8b67-b5e0-eeba-221c4644f74d.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\925e223b-0932-aecf-fe5c-3a240ec76153.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\925e223b-0932-aecf-fe5c-3a240ec76153.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\9a4b9985-dcdb-022f-e41f-af71015260b4.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\9a4b9985-dcdb-022f-e41f-af71015260b4.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\9f4f259c-d6e2-8eee-7ef6-5598e400827a.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\9f4f259c-d6e2-8eee-7ef6-5598e400827a.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\a4f6644a-8dfe-6c2b-c54c-c0b314681e8b.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\a4f6644a-8dfe-6c2b-c54c-c0b314681e8b.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\a541b923-6f4f-e519-191d-006501368172.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\a541b923-6f4f-e519-191d-006501368172.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\a6139682-f3f5-dc86-8af8-a6d76ea8cca1.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\a6139682-f3f5-dc86-8af8-a6d76ea8cca1.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\aa32d1c1-6ed8-835e-8a90-193570730cd5.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\aa32d1c1-6ed8-835e-8a90-193570730cd5.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\b1394f2d-4604-c72c-8767-ab650c6b2a53.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\b1394f2d-4604-c72c-8767-ab650c6b2a53.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\b372185e-08d1-7973-65c1-9d803a2756a2.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\b372185e-08d1-7973-65c1-9d803a2756a2.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\d010f9cd-e6d0-c2c8-1b76-e37e1e2adee7.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\d010f9cd-e6d0-c2c8-1b76-e37e1e2adee7.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\d1a0d8e1-0f22-40fc-ce64-938a0b560ba4.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\d1a0d8e1-0f22-40fc-ce64-938a0b560ba4.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\d3dba0bd-95cb-547f-3a52-9aac22a59cea.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\d3dba0bd-95cb-547f-3a52-9aac22a59cea.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\d8f5f89f-6cfb-acf9-6277-3c68aea7bcbc.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\d8f5f89f-6cfb-acf9-6277-3c68aea7bcbc.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\d9c126ab-8c92-4165-0960-50032c6421b1.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\d9c126ab-8c92-4165-0960-50032c6421b1.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\db5863f8-624e-ab7f-2716-19ca6d432b48.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\db5863f8-624e-ab7f-2716-19ca6d432b48.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\e7af04cf-eb60-147a-1339-274d323deb0c.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\e7af04cf-eb60-147a-1339-274d323deb0c.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\ea83db45-d795-fe13-67d7-75efc18f2352.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\ea83db45-d795-fe13-67d7-75efc18f2352.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\f0131604-1f52-7c2b-f562-5a59588abbe8.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\f0131604-1f52-7c2b-f562-5a59588abbe8.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\fabc0943-626a-ff88-7e20-fc13ce6baa3d.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\fabc0943-626a-ff88-7e20-fc13ce6baa3d.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\fb3d993a-7066-8122-4b2a-8363689d7628.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\fb3d993a-7066-8122-4b2a-8363689d7628.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\html\ffb85375-2d76-860a-5d48-d1c323bd0519.htm -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\html\ffb85375-2d76-860a-5d48-d1c323bd0519.htm
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\adm.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\adm_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\adm_dev.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\adm_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\adm_dev_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_caution.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\alert_caution.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_note.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\alert_note.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\alert_security.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\alert_security.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\big_adm.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\big_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\big_dev.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\big_kw.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\big_kw.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\box.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\box.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\Caution.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\Caution.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\CFW.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\CFW.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collall.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\collall.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collapse.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\collapse.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\collapse_all.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\collapse_all.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\copycode.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\copycode.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\copycodeHighlight.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\copycodeHighlight.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\dev.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\dev_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dropdown.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\dropdown.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\dropdownHover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\dropdownHover.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\drpdown.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown_orange.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\drpdown_orange.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpdown_orange_up.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\drpdown_orange_up.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\drpup.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\drpup.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\exp.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\exp.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\expall.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\expall.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\expand_all.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\expand_all.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\filter1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\filter1a.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\filter1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\filter1c.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\footer.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\footer.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\gradient.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\gradient.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\greencheck.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\greencheck.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\greychck.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\greychck.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_prev_next.jpg -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\header_prev_next.jpg
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_sql_tutorial_blank.jpg -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\header_sql_tutorial_blank.jpg
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\header_sql_tutorial_logo.GIF -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\header_sql_tutorial_logo.GIF
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_adm.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_adm_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_adm_dev.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_adm_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_adm_dev_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_dev.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_dev.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\kw_dev_arch.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\kw_dev_arch.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\LastChild.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\LastChild.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\load.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\load.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\load_hover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\load_hover.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\note.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\note.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pencil.GIF -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pencil.GIF
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privclass.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privdelegate.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privenum.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privenumeration.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privevent.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privextension.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privfield.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privinterface.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privmethod.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privproperty.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\privstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\privstructure.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protclass.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protdelegate.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protenum.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protenumeration.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protevent.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protextension.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protfield.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protinterface.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protmethod.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protoperator.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protoperator.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protproperty.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\protstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\protstructure.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubclass.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubclass.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubdelegate.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubdelegate.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubenum.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubenum.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubenumeration.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubenumeration.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubevent.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubevent.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubextension.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubextension.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubfield.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubfield.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubinterface.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubinterface.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubmethod.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubmethod.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\puboperator.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\puboperator.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubproperty.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubproperty.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\pubstructure.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\pubstructure.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\requirements1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\requirements1a.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\requirements1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\requirements1c.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\save.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\save.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\save_hover.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\save_hover.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\security.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\security.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\seealso1a.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\seealso1a.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\seealso1c.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\seealso1c.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\static.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\static.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\icons\xna.gif -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\icons\xna.gif
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\CheckboxMenu.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\CheckboxMenu.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\CommonUtilities.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\CommonUtilities.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\Dropdown.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\Dropdown.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\EventUtilities.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\EventUtilities.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_feedBack.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\script_feedBack.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_loc.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\script_loc.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\script_manifold.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\script_manifold.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\scripts\SplitScreen.js -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\scripts\SplitScreen.js
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\styles\Presentation.css -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\styles\Presentation.css
+C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\doc\Output\styles\Whidbey\presentation.css -> C:\Documents and Settings\cwinberry\My Documents\Visual Studio 2005\Projects\CDub.FireNet.03\Help\styles\Whidbey\presentation.css
+    Last step completed in 00:00:01.7969
+Removing intermediate files...
+    Last step completed in 00:00:00.0938
+
+
+Build completed successfully.  Total time: 00:04:50.1563
+

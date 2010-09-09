@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CDub.FireNet</name>
+    </assembly>
+    <members>
+        <member name="T:CDub.FireNet.LogLevel">
+            <summary>
+            Logging levels for FirePHP
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.LOG">
+            <summary>
+            General/default logging level
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.INFO">
+            <summary>
+            Informational messages
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.WARN">
+            <summary>
+            Problem messages but not necessarily errors
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.ERROR">
+            <summary>
+            Error messages
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.TRACE">
+            <summary>
+            Exception and stack trace messages
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.LogLevel.DUMP">
+            <summary>
+            Data object dumping messages
+            </summary>
+        </member>
+        <member name="T:CDub.FireNet.StackFrameData">
+            <summary>
+            Represents a stack frame in the FirePHP TRACE format
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameData.file">
+            <summary>
+            Source file
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameData.line">
+            <summary>
+            Line number in the source code
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameData.function">
+            <summary>
+            Current method in the stack frame
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameData.args">
+            <summary>
+            Arguments passed to the method
+            </summary>
+        </member>
+        <member name="T:CDub.FireNet.StackFrameDataContainer">
+            <summary>
+            Represents a stack trace in the FirePHP TRACE format
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameDataContainer.Message">
+            <summary>
+            Description/label for the stack trace
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameDataContainer.File">
+            <summary>
+            Source code file where trace originated
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameDataContainer.Line">
+            <summary>
+            Source code line number where trace originated
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.StackFrameDataContainer.Trace">
+            <summary>
+            All the frames in the traced stack
+            </summary>
+        </member>
+        <member name="T:CDub.FireNet.Logger">
+            <summary>
+            FirePHP/FireNet Logger for .Net
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_PATTERN">
+            <summary>
+            Pattern that will match a UserAgent header with FirePHP
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_HEADER_PREFIX">
+            <summary>
+            Prefix for all FirePHP headers
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_SKIP_MACRO">
+            <summary>
+            Token used to pad/balance arrays and hashes
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_HEADER_CONSOLE">
+            <summary>
+            JSON property that holds console messages
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_HEADER_CONSOLE_SECTION">
+            <summary>
+            Console message header section prefix
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_HEADER_DUMP">
+            <summary>
+            JSON property that holds dumped data objects
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.FIREPHP_HEADER_DUMP_SECTION">
+            <summary>
+            Data dump header section prefix
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger.CONTEXT_KEY">
+            <summary>
+            Key used with HttpContext.Items to cache a request-specific Logger instance
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._firePHPRegex">
+            <summary>
+            Regex used to detect FirePHP on the client
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._context">
+            <summary>
+            Current HttpContext
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._userAgentSupport">
+            <summary>
+            Flag indicating whether FirePHP was detected in the UserAgent request header
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._headersInit">
+            <summary>
+            Flag indicating whether the basic FirePHP containing headers have been written
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._headersDumpInit">
+            <summary>
+            Flag indicating whether the data dump containing headers have been written
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Logger._headersConsoleInit">
+            <summary>
+            Flag indicating whether the basic console message containing headers have been written
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Logger.GetInstance">
+            <summary>
+            Gets or creates an instance of Logger associated with the current HttpContext
+            </summary>
+            <returns>Logger instance for the current HttpContext</returns>
+        </member>
+        <member name="M:CDub.FireNet.Logger.#ctor">
+            <summary>
+            Don't use this, use the GetInstance factory instead
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Logger.InitHeaders">
+            <summary>
+            Sets up the start and end headers for the FirePHP JSON object
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Logger.InitDumpHeaders">
+            <summary>
+            Sets up the start and end headers for the FirePHP.Dump section
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Logger.InitConsoleHeaders">
+            <summary>
+            Sets up the start and end headers for the FirePHP.Firebug.Console section
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Logger.FormatNumber(System.Int32,System.Int64)">
+            <summary>
+            Formats a number with proper padding
+            </summary>
+            <param name="length">Number of 0s to pad</param>
+            <param name="value">The number to pad</param>
+            <returns>A 0-padded number as a string</returns>
+        </member>
+        <member name="M:CDub.FireNet.Logger.WriteHeader(System.String,System.Int32,System.Int32,System.Int64)">
+            <summary>
+            Writes a FirePHP formatted header with provided data. Should probably use WriteHeader(string data, int section) instead
+            </summary>
+            <param name="data">The value of the header</param>
+            <param name="section">Which sections to write the header to</param>
+            <param name="secs">Elapsed seconds</param>
+            <param name="msecs">Elapsed microseconds</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.WriteHeader(System.String,System.Int32)">
+            <summary>
+            Writes a FirePHP formatted header with provided data
+            </summary>
+            <param name="data">The value of the header</param>
+            <param name="section">Which sections to write the header to</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Log(System.Object)">
+            <summary>
+            Logs a message with the LogLevel of LOG
+            </summary>
+            <param name="message">The message or data to log. If the parameter is an exception, the message will be TRACEd instead of LOGged</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.Object)">
+            <summary>
+            Log a message
+            </summary>
+            <param name="level">Log level of the message</param>
+            <param name="message">Message or data to log</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Log(CDub.FireNet.LogLevel,System.String,System.Object)">
+            <summary>
+            Log a message with a label
+            </summary>
+            <param name="level">Log level of the message</param>
+            <param name="label">The label for the log message</param>
+            <param name="message">Message or data to log</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.ReadStackFrames(System.Diagnostics.StackTrace)">
+            <summary>
+            Reads the frames out of a StackTrace into a StackFrameDataContainer
+            </summary>
+            <param name="trace">The frame stack trace</param>
+            <returns>The frames in the trace that have a line number != 0</returns>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Dump(System.String,System.Object)">
+            <summary>
+            Dumps an object as a DUMP message
+            </summary>
+            <param name="label">Identifying label/key for the data being dumped</param>
+            <param name="data">The data to dump</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Trace(System.String)">
+            <summary>
+            Logs a stack trace along with the provided message
+            </summary>
+            <param name="message">The message to include with the trace</param>
+        </member>
+        <member name="M:CDub.FireNet.Logger.Trace(System.Exception)">
+            <summary>
+            Logs an exception as a TRACE message with the stack trace unwound
+            </summary>
+            <param name="ex">The exception to trace and log</param>
+        </member>
+        <member name="P:CDub.FireNet.Logger.CurrentSecs">
+            <summary>
+            The number of seconds since the UNIX timestamp epoch of 1970/01/01
+            </summary>
+        </member>
+        <member name="P:CDub.FireNet.Logger.CurrentUSecs">
+            <summary>
+            The number of microseconds elapsed
+            </summary>
+        </member>
+        <member name="P:CDub.FireNet.Logger.Enabled">
+            <summary>
+            Indicates whether the client is expecting FirePHP headers in the response
+            </summary>
+        </member>
+        <member name="T:CDub.FireNet.Serializer">
+            <summary>
+            Serializes objects to a FirePHP-specific format of JSON
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.NULLVALUE">
+            <summary>
+            JSON null value
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.CLASSPROPNAME">
+            <summary>
+            JSON property that represent an object's class/type
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.HASHOPEN">
+            <summary>
+            JSON token used to start a hash/object
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.HASHCLOSE">
+            <summary>
+            JSON token used to end a hash/object
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.ARRAYOPEN">
+            <summary>
+            JSON token used to start an array
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer.ARRAYCLOSE">
+            <summary>
+            JSON token used to end an array
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer._idictType">
+            <summary>
+            Cached IDictionary type
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer._icollType">
+            <summary>
+            Cached ICollection type
+            </summary>
+        </member>
+        <member name="F:CDub.FireNet.Serializer._ienumType">
+            <summary>
+            Cached IEnumerable type
+            </summary>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.QuoteData(System.String)">
+            <summary>
+            Escapes and quotes a string
+            </summary>
+            <param name="data">String to be escaped</param>
+            <returns>Escaped and quoted (double) string</returns>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.Serialize(System.Object)">
+            <summary>
+            Serializes an object to FirePHP-specific format of JSON
+            </summary>
+            <param name="data">Object to serialize</param>
+            <returns>JSON formatted string</returns>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.Serialize(System.Object,System.Text.StringBuilder)">
+            <summary>
+            Serializes an object to FirePHP-specific format of JSON
+            </summary>
+            <param name="data">Object to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleObject(System.Object,System.Text.StringBuilder)">
+            <summary>
+            Serializes an object to JSON
+            </summary>
+            <param name="data">Object to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleObjectFields(System.Object,System.Text.StringBuilder)">
+            <summary>
+            Serializes an object's fields to JSON
+            </summary>
+            <param name="data">Object to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleObjectProperties(System.Object,System.Text.StringBuilder)">
+            <summary>
+            Serializes an object's properties to JSON
+            </summary>
+            <param name="data">Object to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleICollection(System.Collections.ICollection,System.Text.StringBuilder)">
+            <summary>
+            Serializes an ICollection object to JSON
+            </summary>
+            <param name="collection">ICollection to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleIEnumerable(System.Collections.IEnumerable,System.Text.StringBuilder)">
+            <summary>
+            Serializes an IEnumerable object to JSON
+            </summary>
+            <param name="enumerable">IEnumerable to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleIDictionary(System.Collections.IDictionary,System.Text.StringBuilder)">
+            <summary>
+            Serializes an IDictionary object to JSON
+            </summary>
+            <param name="dictionary">IDictionary to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleNVCollection(System.Collections.Specialized.NameValueCollection,System.Text.StringBuilder)">
+            <summary>
+            Serializes an NameValueCollection to JSON
+            </summary>
+            <param name="nvData">NameValueCollection to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+        <member name="M:CDub.FireNet.Serializer.HandleArray(System.Array,System.Text.StringBuilder)">
+            <summary>
+            Serializes an Array to JSON
+            </summary>
+            <param name="arrayData">Array to serialize</param>
+            <param name="sb">StringBuilder to write the JSON to</param>
+        </member>
+    </members>
+</doc>

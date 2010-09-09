@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpCollection SYSTEM "MS-Help://Hx/Resources/HelpCollection.dtd">
+<HelpCollection DTDVersion="1.0" FileVersion="08.00.50720.2102" LangId="1033" Title="FirePHP ASP.Net Server Library" Copyright="GPL v3">
+  <CompilerOptions OutputFile="doc.HxS" CreateFullTextIndex="Yes" CompileResult="Hxs">
+    <IncludeFile File="doc.HxF" />
+  </CompilerOptions>
+  <TOCDef File="doc.HxT" />
+  <KeywordIndexDef File="doc_A.HxK" />
+  <KeywordIndexDef File="doc_K.HxK" />
+  <KeywordIndexDef File="doc_F.HxK" />
+  <KeywordIndexDef File="doc_N.HxK" />
+  <KeywordIndexDef File="doc_S.HxK" />
+  <KeywordIndexDef File="doc_B.HxK" />
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="AnyString" />
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="AnyString" />
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A" />
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K" />
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F" />
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrl" />
+  <ItemMoniker Name="!DefaultSearchWindowIndex" ProgId="HxDs.HxIndex" InitData="S" />
+  <ItemMoniker Name="!DefaultDynamicLinkIndex" ProgId="HxDs.HxIndex" InitData="B" />
+</HelpCollection>

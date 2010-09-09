@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC DTDVersion="1.0" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5">
+  <HelpTOCNode Id="9d86a394-9a3c-4789-aafe-4ef1642e1961" Title="CDub.FireNet Namespace" Url="html/fb3d993a-7066-8122-4b2a-8363689d7628.htm">
+    <HelpTOCNode Id="18c87df4-97c9-459e-ab19-c10ad57db6c1" Title="Logger Class" Url="html/9a4b9985-dcdb-022f-e41f-af71015260b4.htm">
+      <HelpTOCNode Title="Logger Members" Url="html/0d451f37-720b-ac6d-bc91-807b00801c9f.htm" />
+      <HelpTOCNode Id="21089940-d730-4236-b1ca-2aa805418e4e" Title="Logger Methods " Url="html/69fe01fd-716d-be05-868f-deda3dadfe4b.htm">
+        <HelpTOCNode Title="Dump Method " Url="html/e7af04cf-eb60-147a-1339-274d323deb0c.htm" />
+        <HelpTOCNode Title="GetInstance Method " Url="html/b372185e-08d1-7973-65c1-9d803a2756a2.htm" />
+        <HelpTOCNode Id="3e114e2e-e011-4e57-9c9f-c3fc5c51f3d3" Title="Log Method " Url="html/d9c126ab-8c92-4165-0960-50032c6421b1.htm">
+          <HelpTOCNode Title="Log Method (Object)" Url="html/ffb85375-2d76-860a-5d48-d1c323bd0519.htm" />
+          <HelpTOCNode Title="Log Method (LogLevel, Object)" Url="html/d3dba0bd-95cb-547f-3a52-9aac22a59cea.htm" />
+          <HelpTOCNode Title="Log Method (LogLevel, String, Object)" Url="html/6318dcf8-0039-0aa9-af87-f9bf6e5a1e99.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bce0eb17-0038-4dda-befd-db7c3d277db1" Title="Trace Method " Url="html/4253b51b-07b5-c357-0a3c-9bc6f7bbc630.htm">
+          <HelpTOCNode Title="Trace Method (Exception)" Url="html/5323c4e4-a7a2-c09a-0f3b-5e5a4a8c52ce.htm" />
+          <HelpTOCNode Title="Trace Method (String)" Url="html/fabc0943-626a-ff88-7e20-fc13ce6baa3d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="70457759-1d05-4a26-8c58-f5afcc2e53ff" Title="Logger Properties " Url="html/3747066b-37eb-58b7-cc37-985d32025825.htm">
+        <HelpTOCNode Title="Enabled Property " Url="html/45fba068-09aa-f15e-c435-cff0afb71c2e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LogLevel Enumeration" Url="html/a541b923-6f4f-e519-191d-006501368172.htm" />
+    <HelpTOCNode Id="123b38ab-c4e0-4ab5-85ee-3a22f3feb9e1" Title="Serializer Class" Url="html/90be6c19-8b67-b5e0-eeba-221c4644f74d.htm">
+      <HelpTOCNode Title="Serializer Members" Url="html/925e223b-0932-aecf-fe5c-3a240ec76153.htm" />
+      <HelpTOCNode Title="Serializer Constructor " Url="html/32763d2e-3539-e7d8-8bc7-034c55c581c1.htm" />
+      <HelpTOCNode Id="a3fae07d-2746-49d1-b361-fe2c7eec80ec" Title="Serializer Methods " Url="html/28c7dd6e-21ab-a859-910d-d523f3b8d128.htm">
+        <HelpTOCNode Title="QuoteData Method " Url="html/d8f5f89f-6cfb-acf9-6277-3c68aea7bcbc.htm" />
+        <HelpTOCNode Id="d0ba8432-ffc5-4e57-815b-c8e226b02fcb" Title="Serialize Method " Url="html/5858ec09-82ba-09b2-01e1-c0dd5eed15aa.htm">
+          <HelpTOCNode Title="Serialize Method (Object)" Url="html/1237ae0f-859b-75c1-4fb6-67c04a84b3f5.htm" />
+          <HelpTOCNode Title="Serialize Method (Object, StringBuilder)" Url="html/0109a64c-5c0f-39b1-f7bf-432e75eb4481.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5de0a227-2a3f-4d15-9df7-62cc0d9a5477" Title="StackFrameData Structure" Url="html/aa32d1c1-6ed8-835e-8a90-193570730cd5.htm">
+      <HelpTOCNode Title="StackFrameData Members" Url="html/db5863f8-624e-ab7f-2716-19ca6d432b48.htm" />
+      <HelpTOCNode Id="28217c57-28d8-4be7-a716-8c34ad97b80e" Title="StackFrameData Fields" Url="html/3864470b-494c-8b14-7c01-7852ddb8f070.htm">
+        <HelpTOCNode Title="args Field" Url="html/343d27c7-31fe-1c07-cc08-b02998857cf2.htm" />
+        <HelpTOCNode Title="file Field" Url="html/d010f9cd-e6d0-c2c8-1b76-e37e1e2adee7.htm" />
+        <HelpTOCNode Title="function Field" Url="html/b1394f2d-4604-c72c-8767-ab650c6b2a53.htm" />
+        <HelpTOCNode Title="line Field" Url="html/d1a0d8e1-0f22-40fc-ce64-938a0b560ba4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="48cc3c55-59e5-4772-b98b-dd6b19ef7b4e" Title="StackFrameDataContainer Structure" Url="html/a6139682-f3f5-dc86-8af8-a6d76ea8cca1.htm">
+      <HelpTOCNode Title="StackFrameDataContainer Members" Url="html/0a17bc5c-8c9a-d439-23b8-95732af337ad.htm" />
+      <HelpTOCNode Id="8271b63a-486e-4c8a-bb85-61f75076ebf5" Title="StackFrameDataContainer Fields" Url="html/0b8982a5-d554-f8a6-75fd-15929bd5838e.htm">
+        <HelpTOCNode Title="File Field" Url="html/f0131604-1f52-7c2b-f562-5a59588abbe8.htm" />
+        <HelpTOCNode Title="Line Field" Url="html/a4f6644a-8dfe-6c2b-c54c-c0b314681e8b.htm" />
+        <HelpTOCNode Title="Message Field" Url="html/ea83db45-d795-fe13-67d7-75efc18f2352.htm" />
+        <HelpTOCNode Title="Trace Field" Url="html/9f4f259c-d6e2-8eee-7ef6-5598e400827a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
